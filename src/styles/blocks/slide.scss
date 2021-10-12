@@ -1,0 +1,39 @@
+.slide {
+  position: absolute;
+  padding-top: 7%;
+  top: 50%;
+  left: 50%;
+  width: 50vw;
+  height: 50vw;
+
+  transform: translate(-50%, -50%);
+
+
+  &__svg {
+    position: absolute;
+    overflow: hidden;
+
+    width: 50vw;
+    height: 50vw;
+  }
+  
+  &__svgBlack {
+    overflow: hidden;
+    height: 50vw;
+  }
+  
+  &__svgWhite {
+    height: 50vw;
+  }
+
+  &__clip {
+    position: absolute;
+    clip-path: url(#clip);
+  }
+
+  &__video {
+    width: 50vw;
+    height: 50vw;
+    opacity: 0;
+  }
+}
